@@ -7,22 +7,29 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='Gxfghtgf',
+            name="Gxfghtgf",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('fthrt', models.BigIntegerField()),
-                ('asrgfwfsc', models.BigIntegerField(blank=True, null=True)),
-                ('sdferg', models.BigIntegerField(blank=True, null=True)),
-                ('erfr', models.BigIntegerField(blank=True, null=True)),
-                ('werfe', models.BigIntegerField(blank=True, null=True)),
-                ('gujuykju', models.BigIntegerField(blank=True, null=True)),
-                ('qsqsw', models.BigIntegerField(blank=True, null=True)),
-                ('ewfergftr', models.BigIntegerField(blank=True, null=True)),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("fthrt", models.BigIntegerField()),
+                ("asrgfwfsc", models.BigIntegerField(blank=True, null=True)),
+                ("sdferg", models.BigIntegerField(blank=True, null=True)),
+                ("erfr", models.BigIntegerField(blank=True, null=True)),
+                ("werfe", models.BigIntegerField(blank=True, null=True)),
+                ("gujuykju", models.BigIntegerField(blank=True, null=True)),
+                ("qsqsw", models.BigIntegerField(blank=True, null=True)),
+                ("ewfergftr", models.BigIntegerField(blank=True, null=True)),
             ],
         ),
     ]
